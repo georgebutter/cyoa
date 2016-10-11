@@ -1,0 +1,65 @@
+body {
+	background-color:#27414e;
+}
+p, ul {
+	font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+	font-weight: 400;
+    	font-style: normal;
+    	font-size: 21px;
+    	line-height: 1.58;
+}
+a {
+	color: #EF1F2F;
+	text-decoration: none;
+}
+.page {
+	background-color: #eed6c0;
+}
+
+.inventory-icon{
+	height:40px;
+	width:40px;
+	margin:5px;
+	display:inline-block;
+}
+.inventory-icon:before{
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+/* sword */
+#icon-id-1{
+	background:#aaa;
+}
+/* dagger */
+#icon-id-2{
+	background:#999;
+}
+/* backpack */
+#icon-id-3{
+	background:brown;
+}
+/* rope */
+#icon-id-4{
+	background:beige;
+}
+/* tinderbox */
+#icon-id-5{
+	background:#333;
+}
+/* torch */
+#icon-id-6{
+	background:orange;
+}
+/* waterskin */
+#icon-id-7{
+	background:blue;
+}
+/* bread */
+#icon-id-8{
+	background:moccasin;
+}
+/* Healing Salve */
+#icon-id-9{
+	background:#0f0;
+}
